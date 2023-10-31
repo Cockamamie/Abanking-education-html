@@ -1,9 +1,14 @@
 .nav {
   &__list {
-
+    display: flex;
+    gap: 33px;
+    float: right;
   }
 
   &__link {
-
+    color: #000000;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
   }
 }

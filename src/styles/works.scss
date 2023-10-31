@@ -1,6 +1,7 @@
 .works {
   &__container {
     margin-top: 15px;
+    max-width: 848px;
   }
 
   &__title {
@@ -11,6 +12,16 @@
 
   &__wrapper {
     margin-top: 11px;
+  }
+
+  &__item {
+    margin-top: 31px;
+  }
+
+  &__link {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 35px;
   }
 
   &__img {
@@ -25,11 +36,18 @@
   &__year-tag-wrapper {
     display: flex;
     gap: 26px;
+    margin-top: 10px;
+    height: 34px;
   }
 
   &__year-container {
+    width: 62px;
+    height: 25px;
     border-radius: 16px;
     background: #142850;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__work-title {
@@ -53,5 +71,6 @@
 
   &__description {
     color: #21243D;
+    margin-top: 17px;
   }
 }

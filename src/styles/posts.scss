@@ -5,6 +5,14 @@
 
   &__container {
     margin-top: 71px;
+    padding-bottom: 32px;
+    max-width: 848px;
+  }
+
+  &__title-view-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
   }
 
   &__title {
@@ -23,22 +31,20 @@
 
   &__posts-wrapper {
     display: flex;
-    justify-content: center;
     gap: 12px;
   }
 
   &__post-container {
     background-color: #FFFFFF;
-    padding-left: 23px;
     border-radius: 4px;
     box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+    padding: 24px 20px 10px 23px;
   }
 
   &__topic {
     color: #21243D;
     font-size: 26px;
     font-weight: 700;
-    margin-top: 24px;
   }
 
   &__tags {
